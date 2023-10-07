@@ -1,8 +1,27 @@
-const add = require('./add');
-console.log("Hello from index.js");
+const SuperHero = require("./super-hero");
 
-const sum = add(2,7);
-const sum2 = add(2,10);
+const batman = new SuperHero("Batman");
+console.log(batman.getName());
+batman.setName("SuperHero");
+console.log(batman.getName());
 
-console.log(`sum of two numbers is`,sum);
-console.log(`sum of two numbers is`,sum2);
+const bowler = new SuperHero("Bowler");
+console.log(bowler.getName());
+
+bowler.setName("SuperHero2");
+console.log(bowler.getName());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
